@@ -1,0 +1,96 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: none;
+	outline: none;
+	box-sizing: border-box;
+	font-family: 'poppins', sans-serif;
+}
+.col-3 {
+	min-height: 100vh;
+}
+.col-9 {
+	min-height: 100vh;
+}
+body {
+	display: flex;
+}
+/* inicio de siderbar */
+
+a :hover {
+	border-radius: 5px;
+	background-color: #706767;
+}
+
+.card-title {
+	font-size: 25px;
+}
+.card {
+	min-height: 200px;
+	min-width: 200px;
+}
+.circle {
+	width: 60px;
+	height: 60px;
+	background: rgb(78, 13, 230);
+	border-radius: 50px;
+}
+.circle2 {
+	width: 60px;
+	height: 60px;
+	background: rgb(230, 154, 13);
+	border-radius: 50px;
+}
+.circle3 {
+	width: 55px;
+	height: 55px;
+	background: rgb(13, 230, 24);
+	border-radius: 50px;
+}
+.circle4 {
+	width: 60px;
+	height: 60px;
+	font-size: 25px;
+	background: rgb(230, 20, 13);
+	border-radius: 50px;
+}
+.logo {
+	background: rgb(80, 2, 144);
+}
+.radius {
+	border-radius: 6px;
+}
+
+/* Estilo para el contenedor de búsqueda */
+.form-control {
+	display: flex;
+	align-items: center;
+}
+
+/* Estilo para el campo de entrada */
+input[type='text'] {
+	padding: 10px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	font-family: 'Font Awesome 5 Free';
+	font-weight: 900;
+}
+
+/* Estilo para el texto dentro del campo de entrada */
+input[type='text']::placeholder {
+	font-family: 'Font Awesome 5 Free';
+	font-weight: 900;
+	color: #999;
+}
+/* seccion graficos */
+img {
+	box-shadow: 0 6px 8px rgba(0, 0, 0, 0.1);
+}
+@media screen and (max-width: 767px) {
+	.logo1 {
+		font-size: 20px;
+	}
+	a :hover {
+		border-radius: 5px;
+	}
+}
